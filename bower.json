@@ -1,0 +1,12 @@
+{
+  "name": "jquerypp-raw",
+  "version": "0.1.0",
+  "dependencies": {
+    "jquery":  ">=1.8"
+  },
+  "Description": "Raw files from Bitovi's jquerypp - http://jquerypp.com",
+    "ignore": [
+     "**/.*",
+     "bower_components",
+   ]
+}
