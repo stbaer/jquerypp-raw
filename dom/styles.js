@@ -4,7 +4,7 @@
 * Copyright (c) 2013 Bitovi
 * Licensed MIT
 */
-define(['jquery'], function ($) {
+(function ($) {
 	var getComputedStyle = document.defaultView && document.defaultView.getComputedStyle,
 		// The following variables are used to convert camelcased attribute names
 		// into dashed names, e.g. borderWidth to border-width
@@ -93,4 +93,4 @@ define(['jquery'], function ($) {
 	};
 
 	return $;
-});
+})(jQuery);

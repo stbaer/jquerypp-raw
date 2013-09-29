@@ -4,7 +4,7 @@
 * Copyright (c) 2013 Bitovi
 * Licensed MIT
 */
-define(['jquery'], function ($) {
+(function ($) {
 
 	$.fn.triggerAsync = function (type, data, success, prevented) {
 		if (typeof data == 'function') {
@@ -93,4 +93,4 @@ define(['jquery'], function ($) {
 	};
 
 	return $;
-});
+})(jQuery);

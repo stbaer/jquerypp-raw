@@ -4,7 +4,7 @@
 * Copyright (c) 2013 Bitovi
 * Licensed MIT
 */
-define(['jquery', 'jquerypp/dom/compare'], function ($) {
+(function ($) {
 
 	$.fn.range =
 
@@ -594,4 +594,4 @@ define(['jquery', 'jquerypp/dom/compare'], function ($) {
 	support.moveToPoint = !! $.Range().range.moveToPoint
 
 	return $;
-});
+})(jQuery);

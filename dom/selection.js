@@ -4,7 +4,7 @@
 * Copyright (c) 2013 Bitovi
 * Licensed MIT
 */
-define(['jquery', 'jquerypp/dom/range'], function ($) {
+(function ($) {
 
 	var getWindow = function (element) {
 		return element ? element.ownerDocument.defaultView || element.ownerDocument.parentWindow : window
@@ -219,4 +219,4 @@ define(['jquery', 'jquerypp/dom/range'], function ($) {
 	$.fn.selection.getCharElement = getCharElement;
 
 	return $;
-});
+})(jQuery);

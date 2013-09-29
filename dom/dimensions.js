@@ -4,7 +4,7 @@
 * Copyright (c) 2013 Bitovi
 * Licensed MIT
 */
-define(['jquery', 'jquerypp/dom/styles'], function ($) {
+(function ($) {
 
 	var
 	//margin is inside border
@@ -110,4 +110,4 @@ define(['jquery', 'jquerypp/dom/styles'], function ($) {
 	})
 
 	return $;
-});
+})(jQuery);

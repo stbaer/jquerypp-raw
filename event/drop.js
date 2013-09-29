@@ -4,7 +4,7 @@
 * Copyright (c) 2013 Bitovi
 * Licensed MIT
 */
-define(['jquery', 'jquerypp/event/drag/core', 'jquerypp/dom/within', 'jquerypp/dom/compare'], function ($) {
+(function ($) {
 	var event = $.event;
 
 	var eventNames = [
@@ -296,4 +296,4 @@ define(['jquery', 'jquerypp/event/drag/core', 'jquerypp/dom/within', 'jquerypp/d
 	});
 
 	return $;
-});
+})(jQuery);

@@ -4,7 +4,7 @@
 * Copyright (c) 2013 Bitovi
 * Licensed MIT
 */
-define(['jquery'], function ($) {
+(function ($) {
 
 	var event = $.event,
 
@@ -157,4 +157,4 @@ define(['jquery'], function ($) {
 	};
 
 	return $;
-});
+})(jQuery);

@@ -4,7 +4,7 @@
 * Copyright (c) 2013 Bitovi
 * Licensed MIT
 */
-define(['jquery'], function ($) {
+(function ($) {
 
 	// copied from jQuery 1.8.3
 	var uaMatch = function (ua) {
@@ -212,4 +212,4 @@ define(['jquery'], function ($) {
 	}
 
 	return $;
-});
+})(jQuery);

@@ -4,7 +4,7 @@
 * Copyright (c) 2013 Bitovi
 * Licensed MIT
 */
-define(['jquery'], function ($) {
+(function ($) {
 	$.event.reverse = function (name, attributes) {
 		var bound = $(),
 			count = 0,
@@ -94,4 +94,4 @@ define(['jquery'], function ($) {
 	}
 
 	return $;
-});
+})(jQuery);

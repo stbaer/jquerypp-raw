@@ -4,7 +4,7 @@
 * Copyright (c) 2013 Bitovi
 * Licensed MIT
 */
-define(['jquerypp/event/reverse'], function ($) {
+(function ($) {
 	var
 	// bind on the window window resizes to happen
 	win = $(window),
@@ -46,4 +46,4 @@ define(['jquerypp/event/reverse'], function ($) {
 	});
 
 	return $;
-});
+})(jQuery);

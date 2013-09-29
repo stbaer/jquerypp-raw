@@ -4,7 +4,7 @@
 * Copyright (c) 2013 Bitovi
 * Licensed MIT
 */
-define(['jquery'], function ($) {
+(function ($) {
 	// http://bitovi.com/blog/2012/04/faster-jquery-event-fix.html
 	// https://gist.github.com/2377196
 	// IE 8 has Object.defineProperty but it only defines DOM Nodes. According to
@@ -114,4 +114,4 @@ define(['jquery'], function ($) {
 	}
 
 	return $;
-});
+})(jQuery);

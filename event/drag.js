@@ -4,6 +4,6 @@
 * Copyright (c) 2013 Bitovi
 * Licensed MIT
 */
-define(['jquery', 'jquerypp/event/drag/core', 'jquerypp/event/drag/step', 'jquerypp/event/drag/limit', 'jquerypp/event/drag/scroll'], function ($) {
+(function ($) {
 	return $;
-});
+})(jQuery);

@@ -4,7 +4,7 @@
 * Copyright (c) 2013 Bitovi
 * Licensed MIT
 */
-define(['jquery', 'jquerypp/dom/styles'], function ($) {
+(function ($) {
 
 	// Overwrites `jQuery.fn.animate` to use CSS 3 animations if possible
 	var
@@ -310,4 +310,4 @@ define(['jquery', 'jquerypp/dom/styles'], function ($) {
 	};
 
 	return $;
-});
+})(jQuery);

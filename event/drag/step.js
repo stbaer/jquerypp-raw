@@ -4,7 +4,7 @@
 * Copyright (c) 2013 Bitovi
 * Licensed MIT
 */
-define(['jquery', 'jquerypp/event/drag/core', 'jquerypp/dom/styles'], function ($) {
+(function ($) {
 	var round = function (x, m) {
 		return Math.round(x / m) * m;
 	}
@@ -55,4 +55,4 @@ define(['jquery', 'jquerypp/event/drag/core', 'jquerypp/dom/styles'], function (
 	})();
 
 	return $;
-});
+})(jQuery);

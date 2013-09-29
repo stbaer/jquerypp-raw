@@ -4,7 +4,7 @@
 * Copyright (c) 2013 Bitovi
 * Licensed MIT
 */
-define(['jquery', 'jquerypp/lang/json'], function ($) {
+(function ($) {
 
 	$.cookie = function (name, value, options) {
 		if (typeof value != 'undefined') {
@@ -66,4 +66,4 @@ define(['jquery', 'jquerypp/lang/json'], function ($) {
 	};
 
 	return $;
-});
+})(jQuery);

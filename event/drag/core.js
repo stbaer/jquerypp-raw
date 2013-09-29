@@ -4,7 +4,7 @@
 * Copyright (c) 2013 Bitovi
 * Licensed MIT
 */
-define(['jquery', 'jquerypp/lang/vector', 'jquerypp/event/livehack', 'jquerypp/event/reverse'], function ($) {
+(function ($) {
 
 	if (!$.event.special.move) {
 		$.event.reverse('move');
@@ -437,4 +437,4 @@ define(['jquery', 'jquerypp/lang/vector', 'jquerypp/event/livehack', 'jquerypp/e
 	});
 
 	return $;
-});
+})(jQuery);

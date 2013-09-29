@@ -4,7 +4,7 @@
 * Copyright (c) 2013 Bitovi
 * Licensed MIT
 */
-define(['jquery', 'jquerypp/event/default'], function ($) {
+(function ($) {
 
 	var current, rnamespaces = /\.(.*)$/,
 		returnFalse = function () {
@@ -63,4 +63,4 @@ define(['jquery', 'jquerypp/event/default'], function ($) {
 	};
 
 	return $;
-});
+})(jQuery);

@@ -4,7 +4,7 @@
 * Copyright (c) 2013 Bitovi
 * Licensed MIT
 */
-define(['jquery'], function ($) {
+(function ($) {
 
 	// See http://ejohn.org/blog/comparing-document-position/
 	$.fn.compare = function (element) { //usually
@@ -53,4 +53,4 @@ define(['jquery'], function ($) {
 	}
 
 	return $;
-});
+})(jQuery);

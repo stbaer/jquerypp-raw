@@ -4,7 +4,7 @@
 * Copyright (c) 2013 Bitovi
 * Licensed MIT
 */
-define(['jquery'], function ($) {
+(function ($) {
 	var getSetZero = function (v) {
 		return v !== undefined ? (this.array[0] = v) : this.array[0]
 	},
@@ -123,4 +123,4 @@ define(['jquery'], function ($) {
 	};
 
 	return $;
-});
+})(jQuery);

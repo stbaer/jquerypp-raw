@@ -4,7 +4,7 @@
 * Copyright (c) 2013 Bitovi
 * Licensed MIT
 */
-define(['jquery', 'jquerypp/event/drag/core', 'jquerypp/dom/styles'], function ($) {
+(function ($) {
 
 	$.Drag.prototype
 
@@ -59,4 +59,4 @@ define(['jquery', 'jquerypp/event/drag/core', 'jquerypp/dom/styles'], function (
 	};
 
 	return $;
-});
+})(jQuery);

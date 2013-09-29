@@ -4,7 +4,7 @@
 * Copyright (c) 2013 Bitovi
 * Licensed MIT
 */
-define(['jquery'], function ($) {
+(function ($) {
 
 
 	// Store the old jQuery.cleanData
@@ -21,4 +21,4 @@ define(['jquery'], function ($) {
 		oldClean(elems);
 	};
 	return $;
-});
+})(jQuery);

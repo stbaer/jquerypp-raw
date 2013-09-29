@@ -4,7 +4,7 @@
 * Copyright (c) 2013 Bitovi
 * Licensed MIT
 */
-define(['jquery', 'jquerypp/event/drop'], function ($) { //needs drop to determine if respondable
+(function ($) { //needs drop to determine if respondable
 	$.Drag.prototype.
 
 	scrolls = function (elements, options) {
@@ -126,4 +126,4 @@ define(['jquery', 'jquerypp/event/drop'], function ($) { //needs drop to determi
 	})
 
 	return $;
-});
+})(jQuery);

@@ -4,7 +4,7 @@
 * Copyright (c) 2013 Bitovi
 * Licensed MIT
 */
-define(['jquery'], function ($) {
+(function ($) {
 
 	$.toJSON = function (o, replacer, space, recurse) {
 		if (typeof(JSON) == 'object' && JSON.stringify) return JSON.stringify(o, replacer, space);
@@ -139,4 +139,4 @@ define(['jquery'], function ($) {
 	};
 
 	return $;
-});
+})(jQuery);

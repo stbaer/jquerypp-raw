@@ -4,7 +4,7 @@
 * Copyright (c) 2013 Bitovi
 * Licensed MIT
 */
-define(['jquery', 'jquerypp/event/livehack'], function ($) {
+(function ($) {
 
 	$.Hover = function () {
 		this._delay = $.Hover.delay;
@@ -170,4 +170,4 @@ define(['jquery', 'jquerypp/event/livehack'], function ($) {
 	"hovermove"], "mouseenter", onmouseenter)
 
 	return $;
-});
+})(jQuery);

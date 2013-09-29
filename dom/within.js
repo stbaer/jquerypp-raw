@@ -4,7 +4,7 @@
 * Copyright (c) 2013 Bitovi
 * Licensed MIT
 */
-define(['jquery'], function ($) {
+(function ($) {
 	// Checks if x and y coordinates are within a box with left, top, width and height
 	var withinBox = function (x, y, left, top, width, height) {
 		return (y >= top && y < top + height && x >= left && x < left + width);
@@ -55,4 +55,4 @@ define(['jquery'], function ($) {
 	}
 
 	return $;
-});
+})(jQuery);

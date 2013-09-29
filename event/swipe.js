@@ -4,7 +4,7 @@
 * Copyright (c) 2013 Bitovi
 * Licensed MIT
 */
-define(['jquery', 'jquerypp/event/livehack'], function ($) {
+(function ($) {
 	var isPhantom = /Phantom/.test(navigator.userAgent),
 		supportTouch = !isPhantom && "ontouchend" in document,
 		scrollEvent = "touchmove scroll",
@@ -101,4 +101,4 @@ define(['jquery', 'jquerypp/event/livehack'], function ($) {
 	});
 
 	return $;
-});
+})(jQuery);

@@ -4,7 +4,7 @@
 * Copyright (c) 2013 Bitovi
 * Licensed MIT
 */
-define(['jquery'], function ($) {
+(function ($) {
 	var
 	// use to parse bracket notation like my[name][attribute]
 	keyBreaker = /[^\[\]]+/g,
@@ -152,4 +152,4 @@ define(['jquery'], function ($) {
 	});
 
 	return $;
-});
+})(jQuery);
